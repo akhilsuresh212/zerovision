@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92064604461",
+    "firebase_url": "https://zerovision-1557044447488.firebaseio.com",
+    "project_id": "zerovision-1557044447488",
+    "storage_bucket": "zerovision-1557044447488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92064604461:android:960fe7202a3dd985",
+        "android_client_info": {
+          "package_name": "org.tensorflow.tensorflowdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92064604461-gvdq0o24vhu82dcq3oclt43elv9dpe8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJpdmLXms1ufzjrDEEWcI86k2IWjYWLTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92064604461-gvdq0o24vhu82dcq3oclt43elv9dpe8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginBottom="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10sp"
+                    android:background="#467FD8"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_chat"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:src="@drawable/comment" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/ll_dial"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10sp"
+                    android:background="#467FD8"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_dial"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/dial"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10sp"
+                android:background="#467FD8" >
+
+                <ImageView
+                    android:id="@+id/iv_camera"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/vide_call" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10sp"
+                android:background="#467FD8" >
+                <ImageView
+                    android:id="@+id/iv_video"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/video"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10sp"
+                    android:layout_weight="1"
+                    android:background="#467FD8">
+
+                    <ImageView
+                        android:id="@+id/iv_settings"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:src="@drawable/settings" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10sp"
+                    android:background="#467FD8"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_forwrd"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:src="@drawable/menu" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ll_content"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/btnSpeechRecognizer"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="15dp"
+            android:src="@drawable/microphone" />
+    </LinearLayout>
+
+
+</RelativeLayout>
